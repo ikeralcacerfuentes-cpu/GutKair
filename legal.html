@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Kair · Aviso legal y privacidad</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <style>
+    :root {
+      --bg: #FAFAF8; --card: #ffffff; --accent: #2ac6a8; --accent-dark: #1B3A2A;
+      --text-main: #111820; --text-muted: #6b7280; --text-light: #9ca3af;
+      --border: #e8e8e4;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: system-ui,-apple-system,BlinkMacSystemFont,"SF Pro Text","Helvetica Neue",sans-serif; background: var(--bg); color: var(--text-main); -webkit-font-smoothing: antialiased; }
+
+    /* NAV */
+    nav { background: var(--card); border-bottom: 1px solid var(--border); padding: 14px 24px; display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; z-index: 10; }
+    .nav-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; }
+    .nav-wordmark { font-size: 1rem; font-weight: 200; letter-spacing: 0.28em; color: var(--text-main); }
+    .nav-back { font-size: 0.78rem; color: var(--accent-dark); text-decoration: none; display: flex; align-items: center; gap: 5px; }
+    .nav-back:hover { opacity: 0.75; }
+
+    /* LAYOUT */
+    .shell { max-width: 720px; margin: 0 auto; padding: 48px 24px 80px; }
+    .page-title { font-size: 1.4rem; font-weight: 300; color: var(--text-main); margin-bottom: 8px; letter-spacing: -0.01em; }
+    .page-sub { font-size: 0.82rem; color: var(--text-muted); margin-bottom: 40px; line-height: 1.6; }
+
+    /* TABLE OF CONTENTS */
+    .toc { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px 20px; margin-bottom: 40px; }
+    .toc-title { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.12em; color: var(--text-light); margin-bottom: 10px; }
+    .toc a { display: block; font-size: 0.82rem; color: var(--accent-dark); text-decoration: none; padding: 4px 0; border-bottom: 1px solid var(--border); }
+    .toc a:last-child { border-bottom: none; padding-bottom: 0; }
+    .toc a:hover { opacity: 0.75; }
+
+    /* SECTIONS */
+    .legal-section { margin-bottom: 48px; }
+    .section-label { font-size: 0.62rem; font-weight: 500; text-transform: uppercase; letter-spacing: 0.16em; color: var(--accent-dark); margin-bottom: 6px; }
+    h2 { font-size: 1.1rem; font-weight: 300; color: var(--text-main); margin-bottom: 16px; letter-spacing: -0.01em; padding-top: 8px; border-top: 2px solid var(--accent-dark); }
+    h3 { font-size: 0.88rem; font-weight: 500; color: var(--text-main); margin: 20px 0 8px; }
+    p { font-size: 0.82rem; color: var(--text-muted); line-height: 1.75; margin-bottom: 12px; }
+    ul { padding-left: 18px; margin-bottom: 12px; }
+    li { font-size: 0.82rem; color: var(--text-muted); line-height: 1.65; margin-bottom: 4px; }
+    .highlight-box { background: rgba(42,198,168,0.05); border-left: 2px solid var(--accent); border-radius: 0 8px 8px 0; padding: 12px 16px; margin: 16px 0; font-size: 0.78rem; color: #065f46; line-height: 1.6; }
+    .warning-box { background: rgba(185,28,28,0.04); border-left: 2px solid #b91c1c; border-radius: 0 8px 8px 0; padding: 12px 16px; margin: 16px 0; font-size: 0.78rem; color: #7f1d1d; line-height: 1.6; }
+    table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 0.78rem; }
+    th { text-align: left; padding: 8px 12px; background: var(--card); border: 1px solid var(--border); color: var(--text-muted); font-weight: 500; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; }
+    td { padding: 8px 12px; border: 1px solid var(--border); color: var(--text-muted); vertical-align: top; line-height: 1.5; }
+    a { color: var(--accent-dark); }
+
+    /* FOOTER */
+    footer { border-top: 1px solid var(--border); padding: 24px; text-align: center; font-size: 0.68rem; color: var(--text-light); line-height: 1.6; }
+
+    /* TODO placeholder */
+    .todo { background: #fffbeb; border: 1px solid #fcd34d; border-radius: 6px; padding: 8px 12px; font-size: 0.74rem; color: #92400e; margin: 8px 0; }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a class="nav-logo" href="index.html">
+    <svg width="22" height="22" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <line x1="34" y1="15" x2="34" y2="85" stroke="#1B3A2A" stroke-width="7" stroke-linecap="round"/>
+      <line x1="41" y1="38" x2="72" y2="15" stroke="#1B3A2A" stroke-width="7" stroke-linecap="round"/>
+      <line x1="41" y1="62" x2="72" y2="85" stroke="#1B3A2A" stroke-width="7" stroke-linecap="round"/>
+      <circle cx="54" cy="50" r="7.5" fill="#2ac6a8"/>
+    </svg>
+    <span class="nav-wordmark">kair</span>
+  </a>
+  <a class="nav-back" href="index.html">
+    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><polyline points="15 18 9 12 15 6"/></svg>
+    Volver a la app
+  </a>
+</nav>
+
+<div class="shell">
+  <h1 class="page-title">Aviso legal y política de privacidad</h1>
+  <p class="page-sub">Última actualización: 2025. Por favor, lee este documento con atención antes de usar Kair.</p>
+
+  <div class="toc">
+    <div class="toc-title">Contenido</div>
+    <a href="#aviso-legal">1. Aviso legal</a>
+    <a href="#privacidad">2. Política de privacidad</a>
+    <a href="#cookies">3. Política de almacenamiento local</a>
+  </div>
+
+  <!-- ═══════════════════════════════════════
+       1. AVISO LEGAL
+  ═══════════════════════════════════════ -->
+  <section class="legal-section" id="aviso-legal">
+    <div class="section-label">Sección 1</div>
+    <h2>Aviso legal</h2>
+
+    <div class="todo">
+      <!-- TODO: Completar con los datos de identificación del responsable -->
+      Nombre completo del responsable / empresa, DNI o CIF, dirección postal, email de contacto
+    </div>
+
+    <h3>Identificación del responsable</h3>
+    <p>En cumplimiento con el artículo 10 de la Ley 34/2002, de 11 de julio, de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSICE), se informa de los siguientes datos:</p>
+    <ul>
+      <li><strong>Denominación:</strong> Kair <span style="color:#9ca3af;">[TODO: nombre legal completo]</span></li>
+      <li><strong>CIF / NIF:</strong> <span style="color:#9ca3af;">[TODO]</span></li>
+      <li><strong>Domicilio:</strong> <span style="color:#9ca3af;">[TODO: dirección completa]</span></li>
+      <li><strong>Email de contacto:</strong> <a href="mailto:hola@kair.app">hola@kair.app</a></li>
+      <li><strong>Actividad:</strong> Aplicación web de bienestar personal y autoconocimiento</li>
+    </ul>
+
+    <h3>Objeto y ámbito de aplicación</h3>
+    <p>Kair es una herramienta de autoconocimiento y bienestar personal. Su finalidad es proporcionar al usuario registros diarios de su estado emocional y físico, y generar recomendaciones orientativas sobre hábitos, alimentación, suplementos y técnicas de regulación emocional.</p>
+    <div class="warning-box">
+      Kair no es un servicio médico, psicológico ni sanitario. Las recomendaciones que genera tienen fines exclusivamente educativos e informativos. No constituyen diagnóstico, tratamiento ni prescripción médica. Ante cualquier síntoma o problema de salud, consulta siempre con un profesional sanitario cualificado.
+    </div>
+
+    <h3>Propiedad intelectual</h3>
+    <p>Todos los contenidos de Kair — incluyendo pero no limitado a textos, diseños, código fuente, logotipos y algoritmos — son propiedad de sus creadores y están protegidos por las leyes de propiedad intelectual e industrial vigentes en España y en la Unión Europea. Queda prohibida su reproducción, distribución o comunicación pública sin autorización expresa.</p>
+
+    <h3>Exención de responsabilidad</h3>
+    <p>El equipo de Kair no se responsabiliza de los daños o perjuicios derivados del uso de las recomendaciones generadas por la aplicación, ni de la exactitud o vigencia de las referencias científicas incluidas, que se proporcionan con carácter orientativo.</p>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       2. POLÍTICA DE PRIVACIDAD
+  ═══════════════════════════════════════ -->
+  <section class="legal-section" id="privacidad">
+    <div class="section-label">Sección 2</div>
+    <h2>Política de privacidad</h2>
+
+    <div class="highlight-box">
+      Esta política de privacidad cumple con el Reglamento (UE) 2016/679 del Parlamento Europeo y del Consejo (RGPD) y la Ley Orgánica 3/2018 de Protección de Datos Personales y Garantía de los Derechos Digitales (LOPDGDD).
+    </div>
+
+    <h3>Responsable del tratamiento</h3>
+    <div class="todo"><!-- TODO: Completar con datos reales del responsable del tratamiento --></div>
+    <ul>
+      <li><strong>Responsable:</strong> <span style="color:#9ca3af;">[TODO: nombre completo]</span></li>
+      <li><strong>Email del Delegado de Protección de Datos (DPD):</strong> <a href="mailto:privacidad@kair.app">privacidad@kair.app</a></li>
+    </ul>
+
+    <h3>Datos que recogemos</h3>
+    <p>Kair recoge únicamente los datos necesarios para prestar el servicio de personalización de recomendaciones:</p>
+
+    <table>
+      <tr><th>Dato</th><th>Obligatorio</th><th>Finalidad</th></tr>
+      <tr><td>ID personal (pseudónimo elegido por el usuario)</td><td>Sí</td><td>Identificación anónima del perfil</td></tr>
+      <tr><td>Edad</td><td>Sí</td><td>Personalización de recomendaciones</td></tr>
+      <tr><td>Género</td><td>Sí</td><td>Personalización de recomendaciones</td></tr>
+      <tr><td>País de residencia</td><td>No</td><td>Contextualización de recursos de ayuda</td></tr>
+      <tr><td>Email</td><td>No</td><td>Recuperación del ID en caso de pérdida</td></tr>
+      <tr><td>Condiciones de salud diagnosticadas</td><td>No</td><td>Evitar recomendaciones contraindicadas</td></tr>
+      <tr><td>Medicación habitual</td><td>No</td><td>Evitar interacciones con recomendaciones</td></tr>
+      <tr><td>Registros EVA diarios (tristeza, estrés, fatiga, sueño, digestión)</td><td>Sí (uso voluntario)</td><td>Generación de recomendaciones y seguimiento de evolución</td></tr>
+      <tr><td>Plan de suscripción</td><td>Sí (si aplica)</td><td>Gestión del servicio de pago</td></tr>
+    </table>
+
+    <h3>Base legal del tratamiento</h3>
+    <p>La base legal para el tratamiento de sus datos es el consentimiento explícito del usuario, prestado al aceptar los términos de uso en el momento de crear su perfil (art. 6.1.a RGPD). Para los datos de categoría especial referentes a condiciones de salud, la base legal es el consentimiento explícito reforzado (art. 9.2.a RGPD).</p>
+    <p>El usuario puede retirar su consentimiento en cualquier momento solicitando la eliminación de su perfil, sin que ello afecte a la licitud del tratamiento anterior.</p>
+
+    <h3>Datos de categoría especial (salud)</h3>
+    <div class="warning-box">
+      Los datos relativos a condiciones de salud y medicación son datos de categoría especial conforme al art. 9 del RGPD. Su recogida es estrictamente voluntaria. Kair aplica las siguientes medidas técnicas y organizativas reforzadas: almacenamiento cifrado en Supabase (PostgreSQL con cifrado en reposo), acceso restringido mediante claves de servicio, y políticas de seguridad de filas en la base de datos que impiden el acceso no autorizado.
+    </div>
+
+    <h3>Destinatarios de los datos</h3>
+    <p>Kair utiliza los siguientes proveedores de servicios que actúan como encargados del tratamiento:</p>
+
+    <table>
+      <tr><th>Proveedor</th><th>Finalidad</th><th>País de alojamiento</th><th>Garantías</th></tr>
+      <tr><td>Supabase Inc.</td><td>Almacenamiento de datos del perfil y registros</td><td>Unión Europea (AWS eu-west-1)</td><td>Cláusulas contractuales tipo (SCC)</td></tr>
+      <tr><td>Stripe Inc.</td><td>Procesamiento de pagos</td><td>EE.UU. / UE</td><td>SCC + Privacy Shield successor framework</td></tr>
+      <tr><td>Google LLC (Gemini API)</td><td>Generación de recomendaciones con IA</td><td>EE.UU.</td><td>SCC</td></tr>
+      <tr><td>Resend Inc.</td><td>Envío de emails transaccionales (recuperación de ID)</td><td>EE.UU.</td><td>SCC</td></tr>
+      <tr><td>Vercel Inc.</td><td>Alojamiento de la aplicación web</td><td>EE.UU. / UE</td><td>SCC</td></tr>
+    </table>
+
+    <p>Kair no vende ni cede datos personales a terceros con fines comerciales ni publicitarios bajo ninguna circunstancia.</p>
+
+    <h3>Plazos de conservación</h3>
+    <p>Los datos se conservan mientras el perfil esté activo. El usuario puede solicitar en cualquier momento la eliminación de todos sus datos enviando un email a <a href="mailto:privacidad@kair.app">privacidad@kair.app</a>, que se ejecutará en un plazo máximo de 30 días.</p>
+
+    <h3>Derechos del usuario</h3>
+    <p>En virtud del RGPD, el usuario tiene los siguientes derechos sobre sus datos:</p>
+    <ul>
+      <li><strong>Acceso:</strong> conocer qué datos tenemos sobre usted.</li>
+      <li><strong>Rectificación:</strong> corregir datos inexactos o incompletos.</li>
+      <li><strong>Supresión:</strong> solicitar la eliminación de sus datos ("derecho al olvido").</li>
+      <li><strong>Portabilidad:</strong> recibir sus datos en formato estructurado y legible por máquina.</li>
+      <li><strong>Limitación del tratamiento:</strong> solicitar que suspendamos el tratamiento de sus datos.</li>
+      <li><strong>Oposición:</strong> oponerse al tratamiento de sus datos en determinadas circunstancias.</li>
+    </ul>
+    <p>Para ejercer cualquiera de estos derechos, envíe un email a <a href="mailto:privacidad@kair.app">privacidad@kair.app</a> indicando su ID de usuario y el derecho que desea ejercer. También puede presentar una reclamación ante la Agencia Española de Protección de Datos (AEPD) en <a href="https://www.aepd.es" target="_blank" rel="noopener">www.aepd.es</a>.</p>
+
+    <h3>Menores de edad</h3>
+    <p>Kair no está dirigida a menores de 16 años. Si detectamos que un perfil ha sido creado por un menor de 16 años sin el consentimiento de sus tutores legales, procederemos a la eliminación inmediata de sus datos.</p>
+
+    <h3>Seguridad</h3>
+    <p>Kair implementa medidas técnicas y organizativas apropiadas para garantizar un nivel de seguridad adecuado al riesgo, incluyendo cifrado en tránsito (HTTPS/TLS), cifrado en reposo en la base de datos, políticas de control de acceso, y seguridad de filas en Supabase (Row Level Security).</p>
+  </section>
+
+  <!-- ═══════════════════════════════════════
+       3. COOKIES / ALMACENAMIENTO LOCAL
+  ═══════════════════════════════════════ -->
+  <section class="legal-section" id="cookies">
+    <div class="section-label">Sección 3</div>
+    <h2>Política de almacenamiento local</h2>
+
+    <h3>¿Kair usa cookies?</h3>
+    <p>Kair <strong>no utiliza cookies</strong> de ningún tipo (ni técnicas, ni analíticas, ni publicitarias). No hay rastreadores de terceros, ni píxeles de seguimiento, ni publicidad.</p>
+
+    <h3>Almacenamiento local (localStorage y sessionStorage)</h3>
+    <p>Kair utiliza el almacenamiento local del navegador (<code>localStorage</code> y <code>sessionStorage</code>), que es una tecnología distinta a las cookies pero con función similar. Estos mecanismos se usan exclusivamente para:</p>
+
+    <table>
+      <tr><th>Clave</th><th>Contenido</th><th>Duración</th></tr>
+      <tr><td><code>kair_id</code></td><td>ID del usuario para sesión persistente</td><td>Hasta cierre de sesión</td></tr>
+      <tr><td><code>kair_lang</code></td><td>Preferencia de idioma</td><td>Permanente</td></tr>
+      <tr><td><code>kair_dark</code></td><td>Preferencia de modo oscuro</td><td>Permanente</td></tr>
+      <tr><td><code>kair_legal_accepted</code></td><td>Aceptación del aviso de uso</td><td>Permanente</td></tr>
+      <tr><td><code>kair_local_hist</code></td><td>Historial de registros EVA local (plan Seed)</td><td>Máx. 7 registros</td></tr>
+      <tr><td><code>kair_recs_{uid}_{fecha}</code></td><td>Recomendaciones del día (caché)</td><td>1 día</td></tr>
+      <tr><td><code>kair_gaia_{uid}_{fecha}</code></td><td>Contador de consultas GAIA diarias</td><td>1 día</td></tr>
+      <tr><td><code>kair_reminder_time</code></td><td>Hora del recordatorio diario</td><td>Hasta cambio manual</td></tr>
+    </table>
+
+    <div class="highlight-box">
+      Ninguno de estos datos se transmite a terceros con fines publicitarios ni de análisis de comportamiento. Kair utiliza Umami Analytics, que es una herramienta de analítica web sin cookies y compatible con el RGPD. Umami no identifica usuarios individuales y no comparte datos con ningún tercero.
+    </div>
+
+    <h3>Cómo borrar el almacenamiento local</h3>
+    <p>Puedes borrar todos los datos almacenados localmente desde los ajustes de tu navegador (Configuración → Privacidad → Borrar datos de navegación → Datos de sitios web). Esto cerrará tu sesión en Kair pero no eliminará tu perfil del servidor.</p>
+
+    <p>Para eliminar tu perfil del servidor de forma permanente, contacta con <a href="mailto:privacidad@kair.app">privacidad@kair.app</a>.</p>
+  </section>
+</div>
+
+<footer>
+  <div style="margin-bottom:6px;">
+    <a href="index.html" style="color:var(--text-light);text-decoration:none;">kair</a>
+    &nbsp;·&nbsp;
+    <a href="legal.html#aviso-legal" style="color:var(--text-light);text-decoration:none;">Aviso legal</a>
+    &nbsp;·&nbsp;
+    <a href="legal.html#privacidad" style="color:var(--text-light);text-decoration:none;">Privacidad</a>
+    &nbsp;·&nbsp;
+    <a href="legal.html#cookies" style="color:var(--text-light);text-decoration:none;">Cookies</a>
+  </div>
+  <div>© 2025 Kair. Todos los derechos reservados.</div>
+</footer>
+
+</body>
+</html>
